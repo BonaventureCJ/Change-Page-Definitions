@@ -41,14 +41,13 @@ const ChangePageDefinitions = () => {
 
     return (
         <>
-            <div className="container">
+            <div className="container ud-page-width">
 
-                <div className='text-center ud-page-width' style={pageStyles}>
+                <div className='text-center' style={pageStyles}>
                     <h1>{headingText}</h1>
                     <h3>{secondText}</h3>
                 </div>
-                <div className="container text-center ud-btn">
-
+                <div className="text-center ud-btn">
                     <button className="btn btn-primary" onClick={changeSomeDefinitions} onDoubleClick={originalData}>Change Page Definitions</button>
                     <p className=' text-muted ud-paragraph mb-0'>(Click the button above once to toggle page definitions, double click to return to original definitions; click 'reset' below to reset to original definitions)</p>
                     <p><button className="btn btn-primary text-center" onClick={originalData}>Reset</button></p>

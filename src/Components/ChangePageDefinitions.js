@@ -41,7 +41,7 @@ const ChangePageDefinitions = () => {
 
     return (
         <>
-            <div className="container ud-page-width">
+            <div className="container-fluid ud-page-width">
 
                 <div className='text-center' style={pageStyles}>
                     <h1>{headingText}</h1>
